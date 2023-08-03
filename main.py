@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 tcb_user = ""
-tcb_password =""
+tcb_password = ""
 service = Service(r"C:\Users\lior\Downloads\chromedriver.exe")
 driver = webdriver.Chrome(service=service)
 
