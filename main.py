@@ -6,7 +6,7 @@ import time
 
 tcb_user = ""
 tcb_password = ""
-service = Service(r"C:\Users\lior\Downloads\chromedriver.exe")
+service = Service("")
 driver = webdriver.Chrome(service=service)
 
 class LoginToTcb:
